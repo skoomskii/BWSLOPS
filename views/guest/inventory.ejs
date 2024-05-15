@@ -1,0 +1,79 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+
+    <meta charset="UTF-8">
+
+    <!--Title of webpage-->
+    <title>Maintenance - BWSLOPS</title>
+
+        <!--Calls .css files-->
+        <link rel= "stylesheet" href="./css/topnavstyle.css">
+        <link rel= "stylesheet" href="./css/buttonstyle.css">
+
+        <!--Add Icon Library-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/font-awesome.min.css">
+
+        <!--Settings for background image-->
+        <style>
+            body{
+                background-image: url('../images/drops.png');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+                }
+        </style>
+
+    </head>
+
+   <h1>
+   <center>
+   <img src="../images/bwlogo.png" alt="bwsl logo" width="300" height="200" />
+   </center>
+   BWSLOPS, Maintenance Inventory
+   </h1>
+  
+   <!--Navigation bar menu options-->
+<div class="topnav">
+    <a href="/users/login"><i class="fa fa-user-circle"></i></a>
+    <a href="/"><i class="fa fa-home"></i></a>
+    <a href="/qa"><i class="fa fa-check-circle"></i></a>
+    <a href="/production"><i class="fa fa-industry"></i></a>
+    <a href="/maintenance"><i class="fa fa-cogs"></i></a>
+    <a href="/news"><i class="fa fa-envelope"></i></a>
+    <a href="/schedule"><i class="fa fa-calendar"></i></a>
+</div>
+
+<br> 
+
+<body>
+
+    <!--For page contents to appear in a box-->
+    <div style="background: ghostwhite; 
+    font-size: 15px; 
+    padding: 10px; 
+    border: 1px solid lightgray; 
+    margin: 5px;
+    opacity: 0.75;">
+
+<form class="search" action="/users/search-maintenance" method="GET"> 
+    <center>
+        <h2><b>Choose Action</b></h2>
+        <label> <b>Go To: &nbsp</b> </label> 
+        <input list="Maintenances" id="Maintenance" name="Maintenance" placeholder="Find...">
+        <datalist id="Maintenances">
+            <option value="Inventory">
+            <option value="Compressor Checklist">
+            <option value="Utilities Checklist">
+            <option value="">
+        </datalist>
+        <button type="submit" class="button"><i class="fa fa-search"></i></button>
+    </center>
+</form>
+
+<br>
+
+<iframe width="1080" height="600" frameborder="0" scrolling="no" src="https://bluewaterstt-my.sharepoint.com/personal/zhadeed_bluewaterstt_com/_layouts/15/Doc.aspx?sourcedoc={046be667-6878-40ef-ac04-957aedc536d9}&action=embedview&wdDownloadButton=True&wdInConfigurator=True&wdInConfigurator=True"></iframe>
+
+</body>
+    </html>

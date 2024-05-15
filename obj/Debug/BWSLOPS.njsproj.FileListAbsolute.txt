@@ -1,0 +1,3 @@
+C:\Users\zhadeed\source\repos\BWSLOPS\obj\Debug\BWSLOPS.njsproj.AssemblyReference.cache
+C:\Users\zhadeed\source\repos\BWSLOPS\obj\Debug\BWSLOPS.njsproj.CoreCompileInputs.cache
+C:\Users\zhadeed\source\repos\BWSLOPS\bin\Microsoft.NodejsTools.WebRole.dll
